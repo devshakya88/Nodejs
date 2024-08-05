@@ -1,1 +1,15 @@
-[{"title":"Book","imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYwsfGUilz15EVliIzBfwHmo8OU91Yc5uEw&s","description":"This is an Awesome Book","price":"20"},{"title":"Hello","imageUrl":"https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg","description":"Good Book","price":"30"}]
+[
+  {
+    "id": "12345",
+    "title": "Book",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHYwsfGUilz15EVliIzBfwHmo8OU91Yc5uEw&s",
+    "description": "This is an Awesome Book",
+    "price": "20"
+  },
+  {
+    "title": "Hello",
+    "imageUrl": "https://st.depositphotos.com/1741875/1237/i/450/depositphotos_12376816-stock-photo-stack-of-old-books.jpg",
+    "description": "Good Book",
+    "price": "30"
+  }
+]
