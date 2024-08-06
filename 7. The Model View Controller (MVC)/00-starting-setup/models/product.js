@@ -37,14 +37,13 @@ module.exports = class Product {
           console.log(err);
         });
       } else {
-        this.id = Math.random().toString() * 10;
+        this.id = Math.random().toString();
         products.push(this);
         fs.writeFile(p, JSON.stringify(products), (err) => {
           console.log(err);
         });
       }
     });
-    fs.readFile(p, (err, fileContent) => {});
   }
   static fetchAll(cb) {
     getProductsFromFile(cb);
