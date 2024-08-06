@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+
 const Cart = require("./cart");
 
 const p = path.join(
@@ -26,6 +27,7 @@ module.exports = class Product {
     this.description = description;
     this.price = price;
   }
+
   save() {
     getProductsFromFile((products) => {
       if (this.id) {
